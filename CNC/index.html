@@ -51,25 +51,28 @@
                     <!-- Post header-->
                     <header class="mb-4">
                         <!-- Post title-->
-                        <h1 class="fw-bolder mb-1">CNC</h1>
+                        <h1 class="fw-bolder mb-1">Práctica 8: CNC</h1>
 
                         <!-- ETIQUETA DE ALUMNO (Hacer una por cada alumno)-->
-                           <img class="img-fluid rounded-circle" width="50px" src="img/papupro.jpeg" alt="..." />
+                            <img class="img-fluid rounded-circle" width="50px" src="img/papu1.jpg" alt="..." />
                             <div class="ms-2">
-                                <div class="fw-bold">Aaron Alejandro Figueroa Davila</div>
-                                <div class="text-muted">ingenieria Mecatronica</div>
-                            </div>
-                        <img class="img-fluid rounded-circle" width="50px" src="img/sebas.jpeg" alt="..." />
-                            <div class="ms-2">
-                                <div class="fw-bold">Sebatian Montaño FRANCIS</div>
-                                <div class="text-muted">ingenieria Mecatronica</div>
+                                <div class="fw-bold">Alberto Aguirre Medina</div>
+                                <div class="text-muted">Ing. Mectrónica</div>
                             </div>
                         <!--Aqui termina etiqueta de alumno-->
+                          <img class="img-fluid rounded-circle" width="50px" src="img/gustambo.jpeg" alt="..." />
+                            <div class="ms-2">
+                                <div class="fw-bold">Gustavo Isaac Becerril Villamil</div>
+                                <div class="text-muted">Ing. Mecatrónica</div>
+                            </div>
 
-                        <div class="text-muted fst-italic mt-2 mb-2">Fecha: Mes dia, Año</div>
+                        <div class="text-muted fst-italic mt-2 mb-2">Fecha:Enero 31, 2025</div>
                         <!-- ETIQUETAS O TOPICOS IMPORTANTES DE LA PRACTICA-->
-                        <a class="badge bg-primary text-decoration-none link-light" >Arduino</a>
                         <a class="badge bg-primary text-decoration-none link-light" >Electrónica</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Arduino UNO</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Automatizacion</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Programación</a>
+                        <a class="badge bg-primary text-decoration-none link-light" >Bluetooth</a>
 
                     </header>
                 </div>
@@ -77,50 +80,68 @@
 
             <!-- Seccion de CONTENIDO de la Práctica-->
             <section>
-                <div class="container px-5">
-
-                    <figure class="mb-4"><img class="img-fluid rounded" width="800px" src="img/web.jpg" alt="..." /></figure>
-                                
+                 <div class="container px-5">
                     <p id="resumen">
-                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Resumen -</h2>
-                      <p class="fs-6 mb-4">Máquina CNC desarrollada con el propósito de automatizar la realización de dibujos con un iman doble que se mueve sobre una superficie con arena , operando a través de un sistema computarizado que permite un control preciso y repetible del proceso.</p>
-                        
-                        <p id="intro">
-                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introducción -</h2>
-                        <p class="fs-6 mb-4">En esta práctica se construyó una máquina CNC controlada por Bluetooth para realizar dibujos automatizados sobre una superficie plana. El sistema recibe instrucciones desde una computadora y las ejecuta con precisión mediante motores paso a paso, demostrando la eficacia de la automatización en tareas gráficas.</p>
-                        
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Introduccion -</h2>
+                        <p class="fs-6 mb-4">Las máquinas CNC (Control Numérico por Computadora) permiten automatizar tareas de fabricación como el corte, el grabado o el fresado con alta precisión. Sin embargo, su elevado costo limita su acceso a estudiantes o pequeños emprendedores. Este proyecto busca construir una CNC casera, de bajo costo y funcional, utilizando componentes accesibles, con fines educativos y de prototipado.</p>
+                       
                         <p id="materiales">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5" >- Materiales -</h2>
-                       <p class="fs-6 mb-4"></p>
-                    <p class="fs-6 mb-4"></p>
-                    <p class="fs-6 mb-4"></p>
-                    <p class="fs-6 mb-4"></p>
+                        <p class="fs-6 mb-4">
+                             <ul class="fs-6 mb-4">
+       <li>Madera MDF</li>
+<li>Tornillos y tuercas </li>
+<li>Rodamientos lineales </li>
+<li>Arduino Uno</li>
+<li>Motores paso a paso</li>
+<li>Husillos roscados</li>
+<li>Acopladores flexibles</li>
+<li>Piezas impresas en 3D (soportes y uniones)</li>
+
+    </ul>
+                    </p>
                         
                         <p id="desarrollo">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Desarrollo -</h2>
-                        <p class="fs-6 mb-4">El proceso inició con el diseño mecánico de la máquina CNC, considerando el área de trabajo y la disposición de los ejes. Se cortaron piezas en MDF para la estructura y se imprimieron en 3D soportes y guías para los componentes. Luego, se ensamblaron los ejes X e Y, integrando motores paso a paso, poleas y correas para lograr un movimiento preciso.Tras el ensamblaje mecánico, se realizó el cableado y conexión de los motores a una placa Arduino con una shield para drivers. Finalmente, se estableció la comunicación serial con la computadora, desde donde se enviaron instrucciones de movimiento, permitiendo trazar dibujos de forma remota y automatizada.</p>
+                        <p class="fs-6 mb-4">El desarrollo del proyecto se dividió en etapas: recolección de componentes, diseño de planos, armado de la estructura, montaje de partes móviles, instalación del sistema electrónico y finalmente la configuración del firmware. Cada fase requirió pruebas, ajustes y correcciones para asegurar el buen funcionamiento general de la máquina.
+
+</p>
+                    
                         
+            
                     
                             <p id="diseño">
                             <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Diseño</h1>
-                           <p class="fs-6 mb-4">Se utilizo mdf para hecer toda la caja de adentro, para la caj de arena se uso acrilico de 5 milimetros para que el iman se puedea mover mas facil</p>
-                            
-                            <p id="construccion">
-                            <h1 class="fw-bolder2 mb-4 mt-5 fs-5">Construcción</h1>
-                            <p class="fs-6 mb-4">Se ensamblaron los motores paso a paso con sus respectivas poleas dentadas y se instaló la correa de distribución entre los ejes. El eje X es el encargado del movimiento, mientras que el eje Y permanece fijo. Para el control del sistema, se utilizó una CNC Shield montada sobre una placa Arduino, junto con dos drivers para los motores. Los cables de los motores se conectaron a los terminales correspondientes a los ejes X y Y en la shield, permitiendo un control eficiente del desplazamiento.</p>
-                           
-
+                           <p class="fs-6 mb-4">El diseño de la CNC arenero se basa en un sistema cartesiano de dos ejes (X e Y), donde un carro móvil debajo de la mesa desplaza un imán que arrastra una esfera metálica sobre una capa delgada de arena, creando figuras decorativas. La estructura se construyó con madera MDF y perfiles de aluminio, formando una caja cerrada con tapa de vidrio.  </p>
+ <figure class="mb-4 d-inline-block">
+            <img class="img-fluid rounded" width="400px" src="img/cnc.jpg" alt="Display de 7 segmentos" />
+        </figure>
+    
                         <p id="resultados">
                         <h2 class="fw-bolder mb-4 mt-5 fs-5">- Resultados -</h2>
-                       <p class="fs-6 mb-4">la cnc se logro mover y pudo dibujar una figura</p>
-                       <figure class="mb-4" align="center"><video width="80%"  controls>
+                        <p class="fs-6 mb-4">La CNC tipo arenero logró crear patrones en la arena con alta precisión y suavidad. La esfera se desplazó sin interrupciones, generando figuras La arena utilizada fue fina y homogénea, lo que permitió un trazo limpio y visible. </p>
+ <figure class="mb-4 d-inline-block">
+            <img class="img-fluid rounded" width="400px" src="img/cnc.png" alt="Display de 7 segmentos" />
+          
+        </figure>
+    <figure class="mb-4" align="center"><video width="80%"  controls>
                             <source src="video/cncv.mp4" type="video/mp4">
                         </video></p></figure>
-                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
-                        <p class="fs-6 mb-4">Se logró satisfactoriamente el objetivo de la práctica al ensamblar y controlar correctamente el sistema CNC. La integración de motores, poleas y la placa Arduino CNC Shield permitió realizar movimientos precisos, como trazar un cuadrado con exactitud. Esto demuestra la eficacia del control mediante Arduino para automatizar procesos y asegurar un funcionamiento confiable del sistema.</p>
+          
+    </div> 
                         
-
+ 
                     
+
+                        <p id="conclusiones">
+                        <h2 class="fw-bolder mb-4 mt-5 fs-5">- Conclusiones -</h2>
+                       <p class="fs-6 mb-4">El proyecto demostró que es viable construir una CNC casera con recursos limitados. Si bien no alcanza la precisión ni velocidad de una CNC industrial, es una excelente herramienta para aprender sobre automatización, diseño mecánico y control electrónico. A futuro se pueden incorporar mejoras como un husillo más potente, mejor rigidez estructural y sensores de referencia para aumentar su precisión.</p>
+                        
+ <p id="descargables">
+
+
+                       
+
                 </div>
             </section>
 
@@ -128,7 +149,7 @@
         </main>
 
         <!-- Footer-->
-       <footer class="bg-dark py-4 mt-auto">
+        <footer class="bg-dark py-4 mt-auto">
             <div class="container px-5">
                 <div class="row align-items-center justify-content-between flex-column flex-sm-row">
                     <div class="col-auto"><div class="small m-0 text-white">Copyright &copy; Ingenierias-iberopuebla.mx 2023</div></div>
@@ -142,10 +163,7 @@
                 </div>
             </div>
         </footer>
-        
+
         <!-- Bootstrap core JS-->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
         <!-- Core theme JS-->
-        <script src="../js/scripts.js"></script>
-    </body>
-</html>
